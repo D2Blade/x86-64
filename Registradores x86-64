@@ -1,10 +1,10 @@
 *Registradores de propósito geral*
 ------------------------------------
-RAX
-RBX
-RCX
-RDX
-RSP
-RBP
-RSI
-RDI
+RAX  SYSCALL
+RDI  arg0
+RSI  arg1
+RDX  arg2 
+R10  arg3
+R8   arg4
+R9   arg5
+
