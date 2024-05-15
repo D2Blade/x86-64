@@ -26,8 +26,7 @@ _start:
 
         syscall
 
-;associar o socket a um ip
-;bind(int socket, addr, addr_len
+;associar o socket a um ip - 15/05/2024
 
         mov rax, close          ; Sair
         xor rdi, rdi
